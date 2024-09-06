@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(17, 207, 4, 0.642);
+}
+
+#lista {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#carrito {
+  padding: 25px;
+}
+
+#titulo {
+  padding: 25px;
+}
