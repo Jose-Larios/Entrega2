@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router-dom";
 import productos from "../data";
 //Importamos contador
 import Contador from "../components/Contador.jsx";
+//Importando Css
+import "./Videojuego.css";
 
 //Creacion del componete
 function Videojuego() {
@@ -13,7 +15,7 @@ function Videojuego() {
   const { titulo, precio, descripcion, categoria, imagen } = resultado;
 
   return (
-    <div>
+    <div id="cartJuegos">
       <img src="" alt={imagen} />
       <h2>Titulo: {titulo}</h2>
       <h3>Precio: ${precio}</h3>

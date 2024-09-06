@@ -6,7 +6,9 @@ function Consolas() {
   return (
     <main>
       <h1>Consolas disponibles</h1>
-      <Link to="/donGamer">Home</Link>
+      <Link to="/donGamer" className="Boton-Volver">
+        Home
+      </Link>
     </main>
   );
 }

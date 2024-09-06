@@ -1,0 +1,6 @@
+#cartJuegos {
+  background-color: rgba(5, 97, 5, 0.714);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

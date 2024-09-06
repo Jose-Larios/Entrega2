@@ -2,13 +2,15 @@
 import { Link } from "react-router-dom";
 //Importando la data
 import productos from "../data.js";
+//Importando el Css
+import "./Videojuegos.css";
 
 //Creacion del componente
 function Videojuegos() {
   return (
     <main>
       <h1>Videojuegos disponibles</h1>
-      <div>
+      <div className="cart">
         {/* Mapeando el arreglo */}
         {productos.map((producto) => {
           return (
