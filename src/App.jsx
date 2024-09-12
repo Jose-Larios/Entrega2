@@ -25,6 +25,8 @@ function App() {
           <Route path="videojuegos" element={<Videojuegos />} />
           <Route path="*" element={<Error />} />
           {/* Parametro por URL */}
+          <Route path="/:videojuegoId" element={<Videojuego />} />
+          <Route path="/:consolaId" element={<Consola />} />
           <Route path="videojuegos/:videojuegoId" element={<Videojuego />} />
           <Route path="consolas/:consolaId" element={<Consola />} />
         </Route>

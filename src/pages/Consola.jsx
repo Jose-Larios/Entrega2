@@ -1,5 +1,5 @@
 //Importando useParams
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 //Importando la data
 import productos from "../data";
 //Importamos contador
@@ -20,7 +20,6 @@ function Consola() {
       <h3>Precio: ${precio}</h3>
       <p>Descripcion: {descripcion}</p>
       <Contador />
-      <Link to="/consolas">Volver</Link>
     </div>
   );
 }
