@@ -7,7 +7,7 @@ function Error() {
     <main>
       <h1>404</h1>
       <p>Pagina no encontrada</p>
-      <Link to="/donGamer" className="Boton-Volver">
+      <Link to="/" className="Boton-Volver">
         Home
       </Link>
     </main>

@@ -5,10 +5,9 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav>
-      <Link to="/donGamer">Home</Link>
-      <Link to="/donGamer/consolas">Consolas</Link>
-      <Link to="/donGamer/figuras">Figuras</Link>
-      <Link to="/donGamer/videojuegos">Videojuegos</Link>
+      <Link to="/">Home</Link>
+      <Link to="/consolas">Consolas</Link>
+      <Link to="/videojuegos">Videojuegos</Link>
     </nav>
   );
 };

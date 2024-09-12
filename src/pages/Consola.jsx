@@ -5,12 +5,11 @@ import productos from "../data";
 //Importamos contador
 import Contador from "../components/Contador.jsx";
 //Importando Css
-import "./Videojuego.css";
 
 //Creacion del componete
-function Videojuego() {
-  const { videojuegoId } = useParams();
-  const resultado = productos.find((producto) => producto.id == videojuegoId);
+function Consola() {
+  const { consolaId } = useParams();
+  const resultado = productos.find((producto) => producto.id == consolaId);
 
   const { titulo, precio, descripcion, imagen } = resultado;
 
@@ -21,9 +20,9 @@ function Videojuego() {
       <h3>Precio: ${precio}</h3>
       <p>Descripcion: {descripcion}</p>
       <Contador />
-      <Link to="/videojuegos">Volver</Link>
+      <Link to="/consolas">Volver</Link>
     </div>
   );
 }
 
-export default Videojuego;
+export default Consola;
